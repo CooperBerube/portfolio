@@ -1,10 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Name | Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background: #222;
+      color: #fff;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav a {
+      color: #fff;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      background: #007acc;
+      color: #fff;
+      padding: 100px 20px;
+      text-align: center;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      color: #007acc;
+    }
+
+    .project, .job {
+      margin-bottom: 20px;
+      padding: 15px;
+      background: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #222;
+      color: #fff;
+    }
+  </style>
 </head>
 <body>
-    <h1>hello</h1>
+
+  <header>
+    <h1>Your Name</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#resume">Resume</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Hello, I'm Your Name</h1>
+    <p>Computer Science Student | Cybersecurity Enthusiast | Army ROTC</p>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m a sophomore Computer Science major at Johns Hopkins University, passionate about cybersecurity, cryptology, and network security. I'm a student-athlete on the JHU Football team and a member of the Army ROTC program.</p>
+  </section>
+
+  <section id="resume">
+    <h2>Resume</h2>
+    <div class="job">
+      <h3>Cybersecurity Intern - JHU Information Security Institute</h3>
+      <p>Researching class pollution vulnerabilities and contributing to web/mobile security projects under faculty mentorship.</p>
+    </div>
+    <div class="job">
+      <h3>Leadership - Army ROTC</h3>
+      <p>Managed stock team operations and enforced security compliance across physical and digital assets using FDA and DoD protocols.</p>
+    </div>
+    <div class="job">
+      <h3>Education</h3>
+      <p>Johns Hopkins University, B.S. Computer Science, Class of 2027</p>
+    </div>
+    <div class="job">
+      <h3>Certifications</h3>
+      <p>CompTIA Security+</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>OpenAddressingHashMap</h3>
+      <p>Implemented a custom hash map with dynamic resizing and probing for a search engine backend.</p>
+    </div>
+    <div class="project">
+      <h3>MeasuredIndexedList</h3>
+      <p>Designed a Java list that tracks access and mutation metrics to benchmark sorting algorithms.</p>
+    </div>
+    <!-- Add more projects as needed -->
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: your.email@jhu.edu</p>
+    <p>GitHub: <a href="https://github.com/yourusername" target="_blank">yourusername</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/yourname" target="_blank">Your Name</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Your Name. All Rights Reserved.</p>
+  </footer>
+
 </body>
 </html>
