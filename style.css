@@ -62,6 +62,13 @@ header nav ul li a:hover {
     color: #00bcd4; /* Change color on hover */
 }
 
+#about {
+    background: "./files/background.jpg" no-repeat center center/cover;
+    padding: 2rem;
+    color: #fff;
+    text-align: center;
+}
+
 footer {
     text-align: center;
     padding: 2rem 1rem;
